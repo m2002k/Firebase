@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
-import { AuthProvider } from './contexts/AuthContext';
-import ProtectedRoute from './components/ProtectedRoute';
-import Home from './components/Home';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
+import { AuthProvider } from './contexts/AuthContext.jsx';
+import ProtectedRoute from './components/ProtectedRoute.jsx';
+import Login from './components/Login.jsx';
+import Dashboard from './components/Dashboard.jsx';
 
 function App() {
   return (
